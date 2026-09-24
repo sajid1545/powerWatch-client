@@ -7,3 +7,4 @@
 .btn.api-pending{position:relative;color:transparent!important;pointer-events:none}
 .btn.api-pending>*{visibility:hidden}
 .btn.api-pending::after{content:"";position:absolute;left:50%;top:50%;width:18px;height:18px;margin:0;border:2px solid currentColor;border-right-color:transparent;border-radius:999px;color:#071a2b;animation:api-spin .65s linear infinite;transform:translate(-50%,-50%)}
+@media(min-width:768px){.page>.panel[class~="md:grid-cols-5"]{grid-template-columns:repeat(7,minmax(0,1fr))}}
