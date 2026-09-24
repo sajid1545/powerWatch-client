@@ -1,0 +1,2 @@
+import {Navigate,Outlet} from 'react-router-dom';import {useAuth} from '../context/AuthContext';import {Spinner} from './UI';
+export function Protected(){const {user,loading}=useAuth();if(loading)return <Spinner/>;return user?<Outlet/>:<Navigate to="/login" replace/>}export function Admin(){const {user,loading}=useAuth();if(loading)return <Spinner/>;return user?.role==='admin'?<Outlet/>:<Navigate to={user?'/dashboard':'/login'} replace/>}

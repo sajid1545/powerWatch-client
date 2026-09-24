@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{js,jsx}'],theme:{extend:{colors:{power:'#f5b700',ink:'#071a2b',electric:'#16c7ff'}}},plugins:[require('daisyui')],daisyui:{themes:[{powerwatch:{primary:'#f5b700',secondary:'#16c7ff',accent:'#19d3ae',neutral:'#102a43','base-100':'#f8fafc',info:'#16c7ff',success:'#10b981',warning:'#f59e0b',error:'#ef4444'}}]}}

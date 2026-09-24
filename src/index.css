@@ -1,0 +1,3 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer base{body{@apply bg-slate-50 text-slate-800 min-h-screen}h1,h2,h3{@apply text-ink font-bold}}
+@layer components{.panel{@apply bg-white border border-slate-200 rounded-2xl shadow-sm}.field{@apply input input-bordered w-full bg-white}.select-field{@apply select select-bordered w-full bg-white}.page{@apply max-w-7xl mx-auto px-4 sm:px-6 py-8}.hero-grid{background-image:linear-gradient(rgba(7,26,43,.94),rgba(7,26,43,.94)),radial-gradient(circle at 20% 20%,#16c7ff 1px,transparent 1px);background-size:auto,24px 24px}}
