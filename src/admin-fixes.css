@@ -1,0 +1,11 @@
+.dashboard-sidebar:has(a[href="/admin"]) ~ main .page > div:first-child h1 {
+  color: #fff !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+}
+
+@media (max-width: 767px) {
+  .min-h-\[calc\(100vh-64px\)\]:has(.mobile-sidebar a[href="/admin"]) main .page > div:first-child h1 {
+    color: #fff !important;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+  }
+}
